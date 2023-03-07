@@ -4,8 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				slightGray: 'hsl(0, 0%, 17%)',
-				darkGray: 'hsl(0, 0%, 59%)',
+				darkGray: 'hsl(0, 0%, 17%)',
+				slightGray: 'hsl(0, 0%, 59%)',
 			},
 			backgroundImage: {
 				'hero-pattern-mobile': "url('./src/assets/images/pattern-bg-mobile.png')",
