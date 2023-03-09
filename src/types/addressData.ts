@@ -5,8 +5,10 @@ export type addressDataType = {
 	zip: string;
 	timezone: string;
 	isp: string;
-	coordinates: {
-		x: number;
-		y: number;
-	};
+	coordinates: coordinatesType;
+};
+
+export type coordinatesType = {
+	lat: number;
+	lng: number;
 };
